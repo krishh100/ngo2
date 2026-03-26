@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Karuna Vaani Charitable and Educational Trust</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#f9fafc;
+color:#333;
+}
+
+header{
+background:white;
+box-shadow:0 2px 10px rgba(0,0,0,0.05);
+position:sticky;
+top:0;
+z-index:100;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+max-width:1100px;
+margin:auto;
+padding:15px 20px;
+}
+
+nav h2{
+color:#0b5ed7;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+}
+
+nav ul li{
+margin-left:25px;
+}
+
+nav ul li a{
+text-decoration:none;
+color:#333;
+font-weight:500;
+transition:0.3s;
+}
+
+nav ul li a:hover{
+color:#0b5ed7;
+}
+
+.hero{
+background:linear-gradient(135deg,#0b5ed7,#4dabf7);
+color:white;
+text-align:center;
+padding:120px 20px;
+}
+
+.hero h1{
+font-size:42px;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:18px;
+margin-bottom:30px;
+}
+
+.hero img{
+width:80%;
+max-width:700px;
+border-radius:10px;
+margin-top:20px;
+}
+
+.button{
+display:inline-block;
+padding:14px 30px;
+background:#27ae60;
+color:white;
+text-decoration:none;
+border-radius:6px;
+font-weight:600;
+transition:0.3s;
+}
+
+.button:hover{
+background:#219150;
+transform:translateY(-2px);
+}
+
+section{
+padding:80px 20px;
+max-width:1100px;
+margin:auto;
+}
+
+.section-title{
+text-align:center;
+margin-bottom:40px;
+}
+
+.section-title h2{
+color:#0b5ed7;
+font-size:32px;
+}
+
+.impact{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:30px;
+text-align:center;
+}
+
+.impact div{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.05);
+}
+
+.impact h2{
+font-size:36px;
+color:#0b5ed7;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+border-radius:10px;
+transition:0.4s;
+}
+
+.gallery img:hover{
+transform:scale(1.05);
+}
+
+.donate{
+background:#eef4ff;
+text-align:center;
+border-radius:10px;
+}
+
+.contact{
+text-align:center;
+background:white;
+padding:40px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.05);
+}
+
+footer{
+background:#0b5ed7;
+color:white;
+text-align:center;
+padding:25px;
+margin-top:60px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<nav>
+<h2>Karuna Vaani Trust</h2>
+
+<ul>
+<li><a href="#about">School</a></li>
+<li><a href="#cause">Cause</a></li>
+<li><a href="#trust">Trust</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#donate">Donate</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+</nav>
+</header>
+
+<section class="hero">
+
+<h1>Karuna Vaani Charitable and Educational Trust</h1>
+
+<p>Supporting education through our initiative – Moon Public School.</p>
+
+<a class="button" href="#donate">Donate Now</a>
+
+<br>
+
+<img src="school.jpg.jpeg"height="300"width=400>
+
+</section>
+
+<section>
+
+<div class="section-title">
+<h2>Our Impact</h2>
+</div>
+
+<div class="impact">
+
+<div>
+<h2 class="counter">500</h2>
+<p>Students Educated</p>
+</div>
+
+<div>
+<h2 class="counter">30</h2>
+<p>Teachers & Volunteers</p>
+</div>
+
+<div>
+<h2 class="counter">10</h2>
+<p>Years of Service</p>
+</div>
+
+<div>
+<h2 class="counter">300</h2>
+<p>Families Supported</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="about">
+
+<div class="section-title">
+<h2>About Moon Public School</h2>
+</div>
+
+<p>
+Moon Public School is an educational institution functioning under the esteemed Karuna Vanni Charitable and Educational Trust, an organization dedicated to the promotion and advancement of education and social welfare. Established with the vision of nurturing young minds, the school focuses on providing quality education that blends academic excellence with moral values and holistic development.
+
+The trust, founded with the objective of contributing to society through education and charitable initiatives, ensures that Moon Public School operates with a strong foundation of integrity, discipline, and inclusivity. The institution strives to create a supportive and inspiring learning environment where students are encouraged to explore their potential, develop critical thinking, and grow into responsible citizens.
+
+Through its commitment to educational excellence and community development, Moon Public School reflects the core mission of the trust—empowering individuals through knowledge and fostering a better future for society.
+</p>
+
+</section>
+
+<section id="cause">
+
+<div class="section-title">
+<h2>Our Cause</h2>
+</div>
+
+<p>
+At Moon Public School, under the Karuna Vanni Charitable and Educational Trust, we believe that education is not a privilege—it is a right every child deserves. Our mission is to provide quality education to students from all backgrounds, especially those who lack access to proper learning opportunities due to financial limitations.
+
+Many talented and hardworking children are forced to leave their education midway because of economic challenges. Through your support, we aim to bridge this gap by offering affordable education, better infrastructure, learning resources, and a safe environment where every child can grow with dignity and confidence.
+
+Your contribution helps us:
+
+Provide scholarships to underprivileged students
+Improve classrooms, libraries, and digital learning facilities
+Support educational materials, uniforms, and basic needs
+Create opportunities for holistic development beyond academics
+
+Every donation, big or small, brings us one step closer to shaping a brighter future for these children. Together, we can empower young minds, uplift communities, and build a society driven by knowledge and compassion.
+
+Be a part of this change. Support education. Support the future.</p>
+
+</section>
+
+<section id="trust">
+
+<div class="section-title">
+<h2>About the Trust</h2>
+</div>
+
+<p>
+Karuna Vanni Charitable and Educational Trust is a non-profit organization committed to creating a positive impact in society through education and charitable initiatives. Established with the vision of empowering individuals and uplifting communities, the trust works towards providing accessible and quality education, especially to those in need.
+
+The foundation of the trust lies in the values of compassion, integrity, and service. It strives to support underprivileged sections of society by promoting educational opportunities, social welfare programs, and community development initiatives.
+
+Through its initiatives, including the management of Moon Public School, the trust focuses on nurturing young minds, encouraging lifelong learning, and building a strong moral foundation in students. The trust believes that education is the key to transformation and works continuously to make it accessible, inclusive, and impactful.
+
+With a commitment to long-term social change, Karuna Vanni Charitable and Educational Trust aims to contribute towards a better, more educated, and empowered society.</p>
+
+</section>
+
+<section id="gallery">
+
+<div class="section-title">
+<h2>School Gallery</h2>
+</div>
+
+<div class="gallery">
+
+<img src="foto1.jpg.jpeg"width="600"height="400">
+<img src="foto2.jpg.jpeg"width="600"height="400">
+<img src="foto3.jpg.jpeg"height="400">
+<img src="foto.jpg.jpeg"height="400">
+
+</div>
+
+</section>
+
+<section id="donate" class="donate">
+
+<div class="section-title">
+<h2>Support Our Mission</h2>
+</div>
+
+<p>Your donation helps provide education for students at Moon Public School.</p>
+
+<br>
+
+<button class="button donate-btn" data-amount="500" type="button">Donate ₹500</button>
+<button class="button donate-btn" data-amount="1000" type="button">Donate ₹1000</button>
+<button class="button donate-btn" data-amount="5000" type="button">Donate ₹5000</button>
+
+<p style="margin-top:20px;">Payments will be processed securely via Razorpay.</p>
+
+</section>
+
+<section id="contact">
+
+<div class="section-title">
+<h2>Contact Us</h2>
+</div>
+
+<div class="contact">
+
+<p>Email: rakesh20000010@gmail.com</p>
+<p>Phone: +91 9212577786</p>
+<p>Address: Delhi, India</p>
+
+</div>
+
+</section>
+
+<section style="text-align:center;padding:40px">
+
+<h3>Trust Information</h3>
+
+<p>Karuna Vaani Charitable and Educational Trust</p>
+
+<p>Registered under Indian Trust Act</p>
+
+
+</section>
+
+<footer>
+
+<p>© 2026 Karuna Vaani Charitable and Educational Trust</p>
+
+</footer>
+
+<script>
+
+const counters=document.querySelectorAll('.counter');
+
+counters.forEach(counter=>{
+let target=+counter.innerText;
+counter.innerText='0';
+
+let update=()=>{
+let current=+counter.innerText;
+let increment=target/100;
+
+if(current<target){
+counter.innerText=Math.ceil(current+increment);
+setTimeout(update,20);
+}else{
+counter.innerText=target;
+}
+};
+
+update();
+});
+
+const donateButtons = document.querySelectorAll('.donate-btn');
+
+donateButtons.forEach((button) => {
+button.addEventListener('click', () => {
+const amount = Number(button.dataset.amount || 0);
+
+const options = {
+key: 'rzp_test_yourKeyHere',
+amount: amount * 100,
+currency: 'INR',
+name: 'Karuna Vaani Trust',
+description: 'Donation for Moon Public School',
+image: 'school.jpg',
+handler: function (response) {
+alert(`Thank you for your donation. Payment ID: ${response.razorpay_payment_id}`);
+},
+prefill: {
+name: '',
+email: '',
+contact: ''
+},
+notes: {
+initiative: 'Moon Public School'
+},
+theme: {
+color: '#0b5ed7'
+}
+};
+
+if (!options.key || options.key === 'rzp_test_yourKeyHere') {
+alert('Please add your Razorpay key in index.html before accepting live donations.');
+return;
+}
+
+const rzp = new Razorpay(options);
+rzp.on('payment.failed', function (response) {
+alert('Payment failed: ' + response.error.description);
+});
+rzp.open();
+});
+});
+
+</script>
+
+</body>
+</html>
